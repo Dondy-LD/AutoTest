@@ -9,7 +9,7 @@ import org.testng.annotations.AfterMethod;
 
 public class MyTestNG {
 	static {
-		System.setProperty("webdriver.chrome.driver", "D:\\Users\\Dondy\\eclipse-workspace\\Auto\\BrowserDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dondy\\git\\Auto\\Auto\\BrowserDriver\\chromedriver.exe");
 		}
 	private WebDriver driver = new ChromeDriver();
   @Test

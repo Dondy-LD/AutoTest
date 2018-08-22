@@ -58,7 +58,7 @@
 				<version>2.21.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>D:\Users\Dondy\eclipse-workspace\Auto\testng.xml</suiteXmlFile>
+						<suiteXmlFile>C:\Users\Dondy\git\Auto\Auto\testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<!-- 加入编码设置，否则生成的报告会中文乱码 -->
 					<argLine>-Dfile.encoding=UTF-8</argLine>
