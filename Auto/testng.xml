@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="搜索业务">
+  <test thread-count="5" name="百度搜索">
+    <classes>
+      <class name="com.dao.JDBCUtilTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="数据库搜索">
+    <classes>
+      <class name="com.pagetest.MyTestNG"/>
+    </classes>
+  </test> <!-- Test -->	
+</suite> <!-- Suite -->
