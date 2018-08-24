@@ -50,6 +50,11 @@
   </dependencies>
   <build>
     <finalName>Auto</finalName>
+       <resources>  
+        <resource>  
+            <directory>src/driver</directory>  
+        </resource>  
+    </resources> 
     	<plugins>
 			<!-- 加入maven-surefire-plugin插件用来使用maven执行用例，其中suiteXmlFile配置的就是testNG用例执行文件的地址 -->
 			<plugin>
