@@ -6,9 +6,4 @@
       <class name="com.dao.JDBCUtilTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="数据库搜索">
-    <classes>
-      <class name="com.pagetest.MyTestNG"/>
-    </classes>
-  </test> <!-- Test -->	
 </suite> <!-- Suite -->
